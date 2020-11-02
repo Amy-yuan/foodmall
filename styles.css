@@ -67,6 +67,7 @@ nav li{
     header{
         height:100px;
         background-repeat: no-repeat;
+        
     }
     header .mobile{
         display:inline-block;
@@ -75,12 +76,17 @@ nav li{
     header .pc{
         display:none;
     }
+    nav li{
+        margin-right:10px;
+    }
     
 }
 
 @media screen and (max-width:595px){
     header{
         height:200px;
+        padding:10px;
+        font-size: 12px;
     }
     header .mobile{
         display:inline-block;
