@@ -70,11 +70,28 @@ nav li{
     }
     header .mobile{
         display:inline-block;
+        margin: 0px 0px;
     }
     header .pc{
         display:none;
     }
     
+}
+
+@media screen and (max-width:595px){
+    header{
+        height:200px;
+    }
+    header .mobile{
+        display:inline-block;
+    }
+    header .pc{
+        display:none;
+    }
+    header .logo{
+        display:none;
+    }
+
 }
 
 @media screen and (max-width:709px){
@@ -88,7 +105,8 @@ nav li{
         display:none;
     }
     header .logo{
-        margin-top: 50px;
+        height:150px;
+        margin-top: 60px;
     }
 
 }
