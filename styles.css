@@ -69,20 +69,6 @@ nav li{
         background-repeat: no-repeat;
         
     }
-    header .mobile{
-        display:inline-block;
-        margin: 0px 0px;
-    }
-    header .pc{
-        display:none;
-    }
-    nav ul{
-        text-align:center;
-    }
-    nav li{
-        margin-right:10px;
-    }
-    
 }
 
 @media screen and (max-width:595px){
@@ -92,10 +78,10 @@ nav li{
         font-size: 12px;
     }
     header .mobile{
-        display:inline-block;
+        display:none;
     }
     header .pc{
-        display:none;
+        display:inline-block;
     }
     header .logo{
         display:none;
