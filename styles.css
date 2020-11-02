@@ -36,7 +36,7 @@ header a:active{
 }
 
 header .logo{
-    background-image: url("../video/header.png");
+    background-image: url("image/header.png");
     display:inline-block;
     background-repeat: no-repeat;
     height: 200px;
