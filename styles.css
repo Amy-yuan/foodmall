@@ -76,6 +76,9 @@ nav li{
     header .pc{
         display:none;
     }
+    nav ul{
+        text-align:center;
+    }
     nav li{
         margin-right:10px;
     }
